@@ -1,0 +1,551 @@
+=== RUN   Test
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc458 0xdc45c 4]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 16384]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc458 0xdc45c 2147483648]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 128]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 256]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 8]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 64]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 16777216]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 4194304]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 1024]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 2]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 512]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 67108864]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 4096]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 8192]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 16]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 262144]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 268435456]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 2097152]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 65536]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 1073741824]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 134217728]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 32768]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 536870912]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 8388608]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 1048576]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 1]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 4]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 2147483648]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 2048]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 32]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 33554432]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 524288]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc464 0xdc468 131072]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 8]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 1]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 16]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 32]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 4]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 128]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 2]
+    gorrupt_test.go:36: 
+        	Error Trace:	/home/andreas/git/gorrupt/examples/fissc/VerifyPIN_0/gorrupt_test.go:36
+        	            				/home/andreas/git/gorrupt/pkg/fi/tester/tester.go:99
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:40
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/task.go:79
+        	            				/home/andreas/go/pkg/mod/github.com/alitto/pond/v2@v2.1.6/pool.go:301
+        	            				/usr/local/go/src/runtime/asm_amd64.s:1700
+        	Error:      	Not equal: 
+        	            	expected: false
+        	            	actual  : true
+        	Test:       	Test
+        	Messages:   	attack: [bfr 0 0 0xdc49c 0xdc4a0 64]
+--- FAIL: Test (106.07s)
+FAIL
+FAIL	github.com/hyperproperties/gorrupt/examples/fissc/VerifyPIN_0	106.085s
+FAIL
