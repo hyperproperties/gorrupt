@@ -1,0 +1,86 @@
+=== RUN   Test
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 65536
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 256
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 1048576
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 4096
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 4194304
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 128
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 64
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 2048
+    gorrupt_test.go:30: Undetected: bfr 0 0 0xdc358 0xdc35c 2147483648
+    gorrupt_test.go:30: Undetected: bfr 1 0 0xdc35c 0xdc360 2147483648
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc354 0xdc358 1073741824
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 512
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 32768
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 4194304
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 4
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 16
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 131072
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 8
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 256
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 16384
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 128
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 2097152
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 134217728
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 65536
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 8192
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 8388608
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 1073741824
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 262144
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 2048
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 1024
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 32
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 64
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 4096
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 33554432
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 536870912
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 524288
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 16777216
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 1
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 67108864
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 16
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 128
+    gorrupt_test.go:33: OD Violation: bfr 14 0 0xdc388 0xdc38c 32
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 1048576
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc374 0xdc378 268435456
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 2
+    gorrupt_test.go:33: OD Violation: bfr 15 0 0xdc38c 0xdc390 32
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 8
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 4
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 64
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 16384
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 2048
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 4194304
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 4096
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 16
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 1073741824
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 128
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 8
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 256
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 64
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc384 0xdc388 32
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc394 0xdc398 8192
+    gorrupt_test.go:33: OD Violation: bfr 0 0 0xdc3a0 0xdc3a4 4
+    gorrupt_test.go:30: Undetected: bfr 3 0 0xdc408 0xdc40c 1
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 2
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 128
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 16
+    gorrupt_test.go:30: Undetected: bfr 3 0 0xdc4a8 0xdc4ac 1
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 4194304
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 2048
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 64
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 256
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 1024
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 1
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 16384
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 8192
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 512
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 8
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 1073741824
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 4096
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 4
+    gorrupt_test.go:30: Undetected: bfr 11 0 0xdc4a8 0xdc4ac 32
+--- FAIL: Test (112.24s)
+FAIL
+FAIL	github.com/hyperproperties/gorrupt/examples/fissc/VerifyPIN_7	112.254s
+FAIL

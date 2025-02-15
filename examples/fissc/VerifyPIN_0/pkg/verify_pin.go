@@ -89,14 +89,14 @@ func (input VerifyPINInput) Call() VerifyPINOutput {
 	userPIN = input.UserPIN
 	ret0 := VerifyPIN()
 	return VerifyPINOutput{
-		Ret0: ret0,
+		Ret0:           ret0,
 		Countermeasure: countermeasure,
-		PTC: ptc,
+		PTC:            ptc,
 	}
 }
 
 type VerifyPINOutput struct {
-	Ret0 bool
+	Ret0           bool
 	Countermeasure bool
-	PTC int8
+	PTC            int8
 }

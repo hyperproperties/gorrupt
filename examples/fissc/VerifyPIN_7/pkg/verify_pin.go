@@ -1,12 +1,5 @@
 package pkg
 
-type HardendBool = uint8
-
-const (
-	TrueHB  = HardendBool(0b10101010)
-	FalseHB = HardendBool(0b01010101)
-)
-
 // The required pin size from the user and the length of the pin used by the card.
 //
 // The #define directive "PIN_SIZE" which is "4".

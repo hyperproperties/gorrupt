@@ -56,7 +56,7 @@ func TestBFRSearcher(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.description, func(t *testing.T) {
-			searcher := NewBFRSearcher()
+			searcher := NewBFRLinearSearch()
 			bfrs := searcher.Instructions(tt.instructions)
 			assert.Len(t, bfrs, tt.length)
 			assert.ElementsMatch(t, tt.bfrs, bfrs)

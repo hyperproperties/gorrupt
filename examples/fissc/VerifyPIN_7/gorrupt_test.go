@@ -1,25 +1,23 @@
 package main
 
 import (
-	"bytes"
 	"context"
 	"os"
-	"strings"
+	"path"
 	"testing"
 	"time"
-	
+
 	"github.com/hyperproperties/gorrupt/examples/fissc/VerifyPIN_7/pkg"
 	"github.com/hyperproperties/gorrupt/pkg/fi"
+	"github.com/hyperproperties/gorrupt/pkg/fi/arm"
 	"github.com/hyperproperties/gorrupt/pkg/fi/tester"
-	"github.com/stretchr/testify/assert"
+	"github.com/hyperproperties/gorrupt/pkg/iterx"
+	"github.com/hyperproperties/gorrupt/pkg/quick"
 )
 
 func Test(t *testing.T) {
 	context, cancel := context.WithTimeout(context.Background(), time.Hour)
 	defer cancel()
-
-	os.Mkdir("./tmp", os.ModePerm)
-	defer os.RemoveAll("./tmp")
 
 	runner := tester.NewRunner[pkg.VerifyPINInput, pkg.VerifyPINOutput](
 		"/home/andreas/git/qemu-fi/build-arm/qemu-arm",
@@ -28,12 +26,72 @@ func Test(t *testing.T) {
 		"GOARCH=arm", "GOOS=linux",
 	)
 
-	tester.CheckParallel(context, runner,
-		func(e0, e1 pkg.VerifyPINOutput, attack fi.Attack) {
-			var buffer bytes.Buffer
-			attack.WriteAttack(&buffer)
-			attackIdentifier := "attack: [" + strings.TrimSpace(buffer.String()) + "]"
-			assert.Equal(t, e0.Ret0, e1.Ret0, attackIdentifier)
+	pack := "github.com/hyperproperties/gorrupt/examples/fissc/VerifyPIN_7/pkg"
+	verifyPIN := tester.FunctionInPackage(pack, "VerifyPIN")
+
+	e0Dir := path.Join(".", quick.String(32, quick.USAlphabet...))
+	os.MkdirAll(e0Dir, os.ModePerm)
+	defer os.RemoveAll(e0Dir + "/")
+
+	e1Dir := path.Join(".", quick.String(32, quick.USAlphabet...))
+	os.MkdirAll(e1Dir, os.ModePerm)
+	defer os.RemoveAll(e1Dir + "/")
+
+	// forall e0.
+	ok, err := runner.Forall(
+		context, tester.NewQuantifierConfiguration(
+			tester.WithDirectory(e0Dir),
+			tester.WithTimeout(time.Minute),
+		),
+		iterx.Once2(quick.New[pkg.VerifyPINInput]()),
+		func(
+			e0Input pkg.VerifyPINInput, e0Output pkg.VerifyPINOutput, plan fi.AttackPlan,
+		) (bool, error) {
+			
+			// forall e1 under BFR.
+			return runner.ForallParallel(
+				context, tester.NewQuantifierConfiguration(
+					tester.WithTargetOptions(
+						tester.LinearSearchTargets(
+							arm.NewBFRLinearSearch(), verifyPIN,
+						),
+						tester.LinearSearchTargets(
+							arm.NewICLinearSearch(), verifyPIN,
+						),
+						tester.LinearSearchTargets(
+							arm.NewISLinearSearch(), verifyPIN,
+						),
+					),
+					tester.WithDirectory(e1Dir),
+					tester.WithTimeout(time.Minute),
+				).Parallel(
+					tester.WithPool(512),
+					tester.WithBatch(4096),
+				),
+				iterx.Once2(e0Input),
+				func(
+					e1Input pkg.VerifyPINInput, e1Output pkg.VerifyPINOutput, plan fi.AttackPlan,
+				) (bool, error) {
+					if !e1Output.Countermeasure {
+						t.Error("Undetected: " + plan.String())
+					}
+					if e0Output.Ret0 != e1Output.Ret0 {
+						t.Error("OD Violation: " + plan.String())
+					}
+					if !e1Output.Countermeasure && e1Output.Ret0 == pkg.TrueHB {
+						t.Error("Undetected access: " + plan.String())
+					}
+					return true, nil
+				},
+			)
 		},
 	)
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	if !ok {
+		t.Error()
+	}
 }

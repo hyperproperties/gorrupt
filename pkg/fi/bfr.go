@@ -2,24 +2,11 @@ package fi
 
 import (
 	"fmt"
-	"io"
-	"iter"
 
 	"github.com/hyperproperties/gorrupt/pkg/obj"
 )
 
-type Transition struct {
-	// The transition between two instructions.
-	// If the value is "0" then it is the same as any.
-	source, destination uint64
-}
-
-func NewTransition(source, destination uint64) Transition {
-	return Transition{
-		source,
-		destination,
-	}
-}
+var _ Target = (*BFRTarget)(nil)
 
 type BFRTarget struct {
 	Transition
@@ -34,16 +21,8 @@ func NewBFRTarget(transition Transition, register byte) BFRTarget {
 	}
 }
 
-//TODO: This is maybe - actually - the language of the attacks.
-func (target BFRTarget) Exhaustive(counter int32) iter.Seq2[int, BFR] {
-	return func(yield func(int, BFR) bool) {
-		for i := 0; i < 32; i++ {
-			bfr := NewBFR(target.register, counter, target.source, target.destination, 1<<i)
-			if !yield(i, bfr) {
-				return
-			}
-		}
-	}
+func (target BFRTarget) Visit(visitor TagetVisitor) {
+	visitor.BFR(target)
 }
 
 var _ Attack = (*BFR)(nil)
@@ -60,7 +39,7 @@ type BFR struct {
 	mask uint32
 }
 
-func NewBFR(register byte, counter int32, source, destination uint64, mask uint32) BFR {
+func NewBFR(register byte, counter int32, source, destination PC, mask uint32) BFR {
 	return BFR{
 		BFRTarget{
 			Transition{
@@ -74,17 +53,6 @@ func NewBFR(register byte, counter int32, source, destination uint64, mask uint3
 	}
 }
 
-func BFRSFromTarget(target BFRTarget) (bfrs []BFR) {
-	for counter := 0; counter < 4; counter++ {
-		for shift := 0; shift < 32; shift++ {
-			bfr := NewBFR(target.register, int32(counter), target.source, target.destination, 1<<shift)
-			bfrs = append(bfrs, bfr)
-		}
-	}
-
-	return
-}
-
 func (bfr BFR) Register() byte {
 	return bfr.register
 }
@@ -93,11 +61,11 @@ func (bfr BFR) Counter() int32 {
 	return bfr.counter
 }
 
-func (bfr BFR) Source() uint64 {
+func (bfr BFR) Source() PC {
 	return bfr.source
 }
 
-func (bfr BFR) Destination() uint64 {
+func (bfr BFR) Destination() PC {
 	return bfr.destination
 }
 
@@ -105,20 +73,8 @@ func (bfr BFR) Mask() uint32 {
 	return bfr.mask
 }
 
-// FIXME: Should return an error
-func (bfr BFR) WriteAttack(writer io.Writer) {
-	io.WriteString(writer, "bfr")
-	io.WriteString(writer, " ")
-	fmt.Fprintf(writer, "%d", bfr.register)
-	io.WriteString(writer, " ")
-	fmt.Fprintf(writer, "%d", bfr.counter)
-	io.WriteString(writer, " ")
-	fmt.Fprintf(writer, "0x%x", bfr.source)
-	io.WriteString(writer, " ")
-	fmt.Fprintf(writer, "0x%x", bfr.destination)
-	io.WriteString(writer, " ")
-	fmt.Fprintf(writer, "%d", bfr.mask)
-	io.WriteString(writer, " ")
+func (bfr BFR) String() string {
+	return fmt.Sprintf("bfr %d %d 0x%x 0x%x %d", bfr.register, bfr.counter, bfr.source, bfr.destination, bfr.mask)
 }
 
 type BFRSearcher interface {
